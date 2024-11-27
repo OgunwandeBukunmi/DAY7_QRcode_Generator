@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+:root{
+  --primary-color : #1F1C3F;
+  --secondary-color : #B5E6DB;
+}*{
+  margin :0;
+  padding :0;
+  box-sizing: border-box;
+  font-family : "Parkinsans" , monospace;
+}
+#root{
+  display :flex;
+  min-height : 100vh;
+  width : 100vw;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+}.app{
+  display : flex;
+  flex-direction :column;
+  align-items: center;
+  gap : 40px;
+  width : 50vw;
+padding : 50px;
+border-radius: 10px;
+background-color: var(--secondary-color);
+}.app > div{
+  display :flex;
+  flex-direction: column;
+  gap : 10px;
+}.app  h1{
+  color : var(--primary-color);
+  font-size : 1.9rem;
+  text-align :center;
+}.app > div label{
+  color: var(--primary-color);
+  font-size : 1.1rem
+
+} .app div > input {
+  outline : none;
+  border : none;
+  border-radius: 5px;
+  padding : 5px;
+}button{
+  padding : 7px;
+    color: var(--secondary-color);
+      background-color: var(--primary-color);
+    font-size :1.1rem;
+    outline :none;
+    border : none;
+    border-radius: 5px;
+    
+}img {
+  width : 20vw;
+  height : 30vh;
+}
