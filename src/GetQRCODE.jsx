@@ -1,4 +1,4 @@
-import { APIKEY } from "./storage.jsx";
+
 const GetQRCODE = async (data) => {
   let url;
   try {
